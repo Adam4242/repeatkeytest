@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LGUI(LCTL(KC_K)),KC_Q,           LT(4, KC_W),    LT(5, KC_F),    KC_P,           KC_B,                                           KC_J,           KC_L,           KC_U,           KC_Y,           DUAL_FUNC_2,    TG(2),          
     KC_BSPC,        LT(2, KC_A),    LT(1, KC_R),    MT(MOD_LSFT, KC_S),MT(MOD_LSFT, KC_T),KC_G,                                           KC_M,           MT(MOD_RSFT, KC_N),MT(MOD_RSFT, KC_E),LT(1, KC_I),    LT(2, KC_O),    KC_KP_ENTER,    
     KC_LEFT_CTRL,   KC_Z,           KC_X,           KC_C,           KC_D,           KC_V,                                           KC_K,           KC_H,           KC_COMMA,       KC_DOT,         KC_QUES,        DUAL_FUNC_3,    
-                                                    KC_SPACE,       LT(3, KC_TAB),                                  QK_REP,TT(3)
+                                                    KC_SPACE,       LT(3, KC_TAB),                                  QK_REPEAT_KEY,  TT(3)
   ),
   [1] = LAYOUT_voyager(
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, QK_LLCK,        
